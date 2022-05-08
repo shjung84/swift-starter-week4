@@ -4,7 +4,7 @@ struct Routine {
 	let routinName: String
 	let exercises: [Exercise]
 	
-	mutating func playMyRoutin(condition: BodyCondition) {
+	mutating func playMyRoutin(condition: inout BodyCondition) {
 //		var myCondition = condition
 		print("""
 		--------------

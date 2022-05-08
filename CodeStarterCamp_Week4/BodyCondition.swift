@@ -1,14 +1,14 @@
 import Foundation
 
-class BodyCondition {
-//struct BodyCondition {
+//class BodyCondition {
+struct BodyCondition {
 	var upperMicle: Int = 0
 	var lowerMicle: Int = 0
 	var endurance: Int = 0
 	var fatigue: Int = 0
 	
-//	mutating func yourConsition() {
-	func yourConsition() {
+	mutating func yourConsition() {
+//	func yourConsition() {
 	print("""
 		--------------
 		현재의 컨디션은 다음과 같습니다.

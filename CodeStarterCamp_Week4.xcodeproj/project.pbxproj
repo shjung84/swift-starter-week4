@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		34811DE8274B93FB00A1E994 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34811DE7274B93FB00A1E994 /* main.swift */; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 		57DE7B7B2826683200EEFC2B /* BodyCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE7B7A2826683200EEFC2B /* BodyCondition.swift */; };
 		57DE7B7D2826684B00EEFC2B /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE7B7C2826684B00EEFC2B /* Exercise.swift */; };
 		57DE7B7F282668DB00EEFC2B /* Routine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE7B7E282668DB00EEFC2B /* Routine.swift */; };
@@ -20,6 +21,11 @@
 		57DE7B932829236400EEFC2B /* FitnessCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE7B922829236400EEFC2B /* FitnessCenter.swift */; };
 		57FAA9B7282D7235002BA125 /* ErrorCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FAA9B6282D7235002BA125 /* ErrorCase.swift */; };
 >>>>>>> ss_4_jessi
+=======
+		57DE7B7B2826683200EEFC2B /* BodyCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE7B7A2826683200EEFC2B /* BodyCondition.swift */; };
+		57DE7B7D2826684B00EEFC2B /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE7B7C2826684B00EEFC2B /* Exercise.swift */; };
+		57DE7B7F282668DB00EEFC2B /* Routine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE7B7E282668DB00EEFC2B /* Routine.swift */; };
+>>>>>>> c364831e5952336246fdbb73fd59dcc8d5c54539
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,6 +44,7 @@
 		34811DE4274B93FB00A1E994 /* CodeStarterCamp_Week4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeStarterCamp_Week4; sourceTree = BUILT_PRODUCTS_DIR; };
 		34811DE7274B93FB00A1E994 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 		57DE7B7A2826683200EEFC2B /* BodyCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyCondition.swift; sourceTree = "<group>"; };
 		57DE7B7C2826684B00EEFC2B /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		57DE7B7E282668DB00EEFC2B /* Routine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routine.swift; sourceTree = "<group>"; };
@@ -49,6 +56,11 @@
 		57DE7B922829236400EEFC2B /* FitnessCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessCenter.swift; sourceTree = "<group>"; };
 		57FAA9B6282D7235002BA125 /* ErrorCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCase.swift; sourceTree = "<group>"; };
 >>>>>>> ss_4_jessi
+=======
+		57DE7B7A2826683200EEFC2B /* BodyCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyCondition.swift; sourceTree = "<group>"; };
+		57DE7B7C2826684B00EEFC2B /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		57DE7B7E282668DB00EEFC2B /* Routine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routine.swift; sourceTree = "<group>"; };
+>>>>>>> c364831e5952336246fdbb73fd59dcc8d5c54539
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +95,7 @@
 			children = (
 				34811DE7274B93FB00A1E994 /* main.swift */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 				57DE7B7A2826683200EEFC2B /* BodyCondition.swift */,
 				57DE7B7C2826684B00EEFC2B /* Exercise.swift */,
 				57DE7B7E282668DB00EEFC2B /* Routine.swift */,
@@ -94,6 +107,11 @@
 				57DE7B842827B81600EEFC2B /* Routine.swift */,
 				57FAA9B6282D7235002BA125 /* ErrorCase.swift */,
 >>>>>>> ss_4_jessi
+=======
+				57DE7B7A2826683200EEFC2B /* BodyCondition.swift */,
+				57DE7B7C2826684B00EEFC2B /* Exercise.swift */,
+				57DE7B7E282668DB00EEFC2B /* Routine.swift */,
+>>>>>>> c364831e5952336246fdbb73fd59dcc8d5c54539
 			);
 			path = CodeStarterCamp_Week4;
 			sourceTree = "<group>";
@@ -159,6 +177,7 @@
 				57DE7B932829236400EEFC2B /* FitnessCenter.swift in Sources */,
 				34811DE8274B93FB00A1E994 /* main.swift in Sources */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 				57DE7B7B2826683200EEFC2B /* BodyCondition.swift in Sources */,
 				57DE7B7F282668DB00EEFC2B /* Routine.swift in Sources */,
 				57DE7B7D2826684B00EEFC2B /* Exercise.swift in Sources */,
@@ -168,6 +187,11 @@
 				57FAA9B7282D7235002BA125 /* ErrorCase.swift in Sources */,
 				57DE7B832827B80500EEFC2B /* Exercise.swift in Sources */,
 >>>>>>> ss_4_jessi
+=======
+				57DE7B7B2826683200EEFC2B /* BodyCondition.swift in Sources */,
+				57DE7B7F282668DB00EEFC2B /* Routine.swift in Sources */,
+				57DE7B7D2826684B00EEFC2B /* Exercise.swift in Sources */,
+>>>>>>> c364831e5952336246fdbb73fd59dcc8d5c54539
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

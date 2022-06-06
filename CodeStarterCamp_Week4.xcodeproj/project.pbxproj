@@ -1,3 +1,34 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@shjung84 
+shjung84
+/
+swift-starter-week4
+Public
+forked from yagom-academy/swift-starter-week4
+Code
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+swift-starter-week4/CodeStarterCamp_Week4.xcodeproj/project.pbxproj
+@shjung84
+shjung84 Refactor: 메인파일
+…
+Latest commit 342110e 37 minutes ago
+ History
+ 2 contributors
+@shjung84@odong-Tree
+310 lines (300 sloc)  11.7 KB
+   
 // !$*UTF8*$!
 {
 	archiveVersion = 1;
@@ -8,24 +39,12 @@
 
 /* Begin PBXBuildFile section */
 		34811DE8274B93FB00A1E994 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34811DE7274B93FB00A1E994 /* main.swift */; };
-<<<<<<< HEAD
-<<<<<<< HEAD
-		57DE7B7B2826683200EEFC2B /* BodyCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE7B7A2826683200EEFC2B /* BodyCondition.swift */; };
-		57DE7B7D2826684B00EEFC2B /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE7B7C2826684B00EEFC2B /* Exercise.swift */; };
-		57DE7B7F282668DB00EEFC2B /* Routine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE7B7E282668DB00EEFC2B /* Routine.swift */; };
-=======
 		57DE7B812827B7FB00EEFC2B /* BodyCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE7B802827B7FB00EEFC2B /* BodyCondition.swift */; };
 		57DE7B832827B80500EEFC2B /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE7B822827B80500EEFC2B /* Exercise.swift */; };
 		57DE7B852827B81600EEFC2B /* Routine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE7B842827B81600EEFC2B /* Routine.swift */; };
 		57DE7B912829228900EEFC2B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE7B902829228900EEFC2B /* Person.swift */; };
 		57DE7B932829236400EEFC2B /* FitnessCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE7B922829236400EEFC2B /* FitnessCenter.swift */; };
 		57FAA9B7282D7235002BA125 /* ErrorCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FAA9B6282D7235002BA125 /* ErrorCase.swift */; };
->>>>>>> ss_4_jessi
-=======
-		57DE7B7B2826683200EEFC2B /* BodyCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE7B7A2826683200EEFC2B /* BodyCondition.swift */; };
-		57DE7B7D2826684B00EEFC2B /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE7B7C2826684B00EEFC2B /* Exercise.swift */; };
-		57DE7B7F282668DB00EEFC2B /* Routine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE7B7E282668DB00EEFC2B /* Routine.swift */; };
->>>>>>> c364831e5952336246fdbb73fd59dcc8d5c54539
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,24 +62,12 @@
 /* Begin PBXFileReference section */
 		34811DE4274B93FB00A1E994 /* CodeStarterCamp_Week4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodeStarterCamp_Week4; sourceTree = BUILT_PRODUCTS_DIR; };
 		34811DE7274B93FB00A1E994 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-<<<<<<< HEAD
-<<<<<<< HEAD
-		57DE7B7A2826683200EEFC2B /* BodyCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyCondition.swift; sourceTree = "<group>"; };
-		57DE7B7C2826684B00EEFC2B /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
-		57DE7B7E282668DB00EEFC2B /* Routine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routine.swift; sourceTree = "<group>"; };
-=======
 		57DE7B802827B7FB00EEFC2B /* BodyCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyCondition.swift; sourceTree = "<group>"; };
 		57DE7B822827B80500EEFC2B /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		57DE7B842827B81600EEFC2B /* Routine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routine.swift; sourceTree = "<group>"; };
 		57DE7B902829228900EEFC2B /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		57DE7B922829236400EEFC2B /* FitnessCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessCenter.swift; sourceTree = "<group>"; };
 		57FAA9B6282D7235002BA125 /* ErrorCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCase.swift; sourceTree = "<group>"; };
->>>>>>> ss_4_jessi
-=======
-		57DE7B7A2826683200EEFC2B /* BodyCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyCondition.swift; sourceTree = "<group>"; };
-		57DE7B7C2826684B00EEFC2B /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
-		57DE7B7E282668DB00EEFC2B /* Routine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routine.swift; sourceTree = "<group>"; };
->>>>>>> c364831e5952336246fdbb73fd59dcc8d5c54539
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,24 +101,12 @@
 			isa = PBXGroup;
 			children = (
 				34811DE7274B93FB00A1E994 /* main.swift */,
-<<<<<<< HEAD
-<<<<<<< HEAD
-				57DE7B7A2826683200EEFC2B /* BodyCondition.swift */,
-				57DE7B7C2826684B00EEFC2B /* Exercise.swift */,
-				57DE7B7E282668DB00EEFC2B /* Routine.swift */,
-=======
 				57DE7B802827B7FB00EEFC2B /* BodyCondition.swift */,
 				57DE7B822827B80500EEFC2B /* Exercise.swift */,
 				57DE7B902829228900EEFC2B /* Person.swift */,
 				57DE7B922829236400EEFC2B /* FitnessCenter.swift */,
 				57DE7B842827B81600EEFC2B /* Routine.swift */,
 				57FAA9B6282D7235002BA125 /* ErrorCase.swift */,
->>>>>>> ss_4_jessi
-=======
-				57DE7B7A2826683200EEFC2B /* BodyCondition.swift */,
-				57DE7B7C2826684B00EEFC2B /* Exercise.swift */,
-				57DE7B7E282668DB00EEFC2B /* Routine.swift */,
->>>>>>> c364831e5952336246fdbb73fd59dcc8d5c54539
 			);
 			path = CodeStarterCamp_Week4;
 			sourceTree = "<group>";
@@ -143,7 +138,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					34811DE3274B93FB00A1E994 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -176,22 +171,10 @@
 				57DE7B912829228900EEFC2B /* Person.swift in Sources */,
 				57DE7B932829236400EEFC2B /* FitnessCenter.swift in Sources */,
 				34811DE8274B93FB00A1E994 /* main.swift in Sources */,
-<<<<<<< HEAD
-<<<<<<< HEAD
-				57DE7B7B2826683200EEFC2B /* BodyCondition.swift in Sources */,
-				57DE7B7F282668DB00EEFC2B /* Routine.swift in Sources */,
-				57DE7B7D2826684B00EEFC2B /* Exercise.swift in Sources */,
-=======
 				57DE7B812827B7FB00EEFC2B /* BodyCondition.swift in Sources */,
 				57DE7B852827B81600EEFC2B /* Routine.swift in Sources */,
 				57FAA9B7282D7235002BA125 /* ErrorCase.swift in Sources */,
 				57DE7B832827B80500EEFC2B /* Exercise.swift in Sources */,
->>>>>>> ss_4_jessi
-=======
-				57DE7B7B2826683200EEFC2B /* BodyCondition.swift in Sources */,
-				57DE7B7F282668DB00EEFC2B /* Routine.swift in Sources */,
-				57DE7B7D2826684B00EEFC2B /* Exercise.swift in Sources */,
->>>>>>> c364831e5952336246fdbb73fd59dcc8d5c54539
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +299,6 @@
 		34811DEC274B93FB00A1E994 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -326,7 +308,6 @@
 		34811DED274B93FB00A1E994 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
